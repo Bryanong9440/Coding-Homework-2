@@ -1,7 +1,7 @@
 int main()
 {
     int number;
-    printf("Please enter an integer: \n");
+    printf("Please enter an integer: ");
     scanf("%i", &number);
     for(int i = 0; i < number; i++){
         printf("*");
@@ -14,7 +14,11 @@ int main()
         }
         printf("*\n");
     }
-    for(int i = 0; i < number; i++){
+    if(number > 1){
+        for(int i = 0; i < number; i++){
         printf("*");
+        }
+    }else{
+        ;
     }
 }
