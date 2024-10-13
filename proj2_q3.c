@@ -38,8 +38,8 @@ int main()
             e = temp;
         }
     }
-    printf("Median: %f\n", c);
+    printf("Median: %.0f\n", c);
     a = a + b + c + d + e;
     a = a / 5;
-    printf("Mean: %f", a);
+    printf("Mean: %.1f", a);
 }
