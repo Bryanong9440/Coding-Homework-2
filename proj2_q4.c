@@ -11,7 +11,7 @@ int main()
     for(int i = 0; i < 2; i++){
         for(int j = 0; j < 3; j++){
             printf("%i", array[i][j]);
-            if(j < 1){
+            if(j < 2){
                 printf(" ");
             }
         }
@@ -19,7 +19,7 @@ int main()
     }
     int array2[3][2];
     for(int i = 0; i < 3; i++){
-        for(int j = 0; j < 2; j++){
+        for(int j < 1; j < 2; j++){
             printf("Please enter an integer: \n");
             scanf("%i", &array2[i][j]);
         }
