@@ -39,9 +39,9 @@ int main()
     printf("Result: \n");
     printf("%i ", sum);
     sum = array[0][0] * array2[0][1] + array[0][1] * array2[1][1] + array[0][2] * array2[2][1];
-    printf("%i \n", sum);
+    printf("%i\n", sum);
     sum = array[1][0] * array2[0][0] + array[1][1] * array2[1][0] + array[1][2] * array2[2][0];
-    printf("%i", sum);
+    printf("%i ", sum);
     sum = array[1][0] * array2[0][1] + array[1][1] * array2[1][1] + array[1][2] * array2[2][1];
     printf("%i", sum);
 }
