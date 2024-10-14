@@ -11,7 +11,7 @@ int main()
     for(int i = 0; i < 2; i++){
         for(int j = 0; j < 3; j++){
             printf("%i", array[i][j]);
-            if(j < 2){
+            if(j < 1){
                 printf(" ");
             }
         }
@@ -28,7 +28,7 @@ int main()
     for(int i = 0; i < 3; i++){
         for(int j = 0; j < 2; j++){
             printf("%i", array2[i][j]);
-            if(j < 1){
+            if(j = 0){
                 printf(" ");
             }
         }
